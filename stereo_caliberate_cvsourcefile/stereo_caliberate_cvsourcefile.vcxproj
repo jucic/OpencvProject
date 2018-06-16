@@ -20,11 +20,11 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{8BBDF2D6-4DE5-48E4-B1E4-FBE041109663}</ProjectGuid>
+    <ProjectGuid>{2A0749F9-A771-4827-BCDA-F6BF0A6EBDCD}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>StereoCamera</RootNamespace>
+    <RootNamespace>stereocaliberatecvsourcefile</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
-    <ProjectName>StereoCamera</ProjectName>
+    <ProjectName>stereo_caliberate</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -154,7 +154,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="StereoCamera.cpp" />
+    <ClCompile Include="stereo_caliberate.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
