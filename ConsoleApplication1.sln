@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{53A60F53-08F6-4BF9-8EE2-A9739EB466E3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "object tracking", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{53A60F53-08F6-4BF9-8EE2-A9739EB466E3}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "camera", "camera\camera.vcxproj", "{D5964E4D-3612-477D-A69B-4871DBBE6B97}"
 EndProject
@@ -38,6 +38,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stereo_realtime_match", "stereo_realtime_match\stereo_realtime_match.vcxproj", "{4739DD65-1F17-47E0-88D4-5E6F82FABC04}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ORB_Match", "ORB_Match\ORB_Match.vcxproj", "{F0A2963F-6039-4D63-BC9D-ED230FA9C0D0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Component analysis", "Component analysis\Component analysis.vcxproj", "{B3B4E0F4-01E2-473E-B492-123C4518796F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pupil-tracker else", "pupil-tracker else\pupil-tracker else.vcxproj", "{5C010C8A-074D-4E39-A34D-F32D10D7D0EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -191,6 +195,22 @@ Global
 		{F0A2963F-6039-4D63-BC9D-ED230FA9C0D0}.Release|x64.Build.0 = Release|x64
 		{F0A2963F-6039-4D63-BC9D-ED230FA9C0D0}.Release|x86.ActiveCfg = Release|Win32
 		{F0A2963F-6039-4D63-BC9D-ED230FA9C0D0}.Release|x86.Build.0 = Release|Win32
+		{B3B4E0F4-01E2-473E-B492-123C4518796F}.Debug|x64.ActiveCfg = Debug|x64
+		{B3B4E0F4-01E2-473E-B492-123C4518796F}.Debug|x64.Build.0 = Debug|x64
+		{B3B4E0F4-01E2-473E-B492-123C4518796F}.Debug|x86.ActiveCfg = Debug|Win32
+		{B3B4E0F4-01E2-473E-B492-123C4518796F}.Debug|x86.Build.0 = Debug|Win32
+		{B3B4E0F4-01E2-473E-B492-123C4518796F}.Release|x64.ActiveCfg = Release|x64
+		{B3B4E0F4-01E2-473E-B492-123C4518796F}.Release|x64.Build.0 = Release|x64
+		{B3B4E0F4-01E2-473E-B492-123C4518796F}.Release|x86.ActiveCfg = Release|Win32
+		{B3B4E0F4-01E2-473E-B492-123C4518796F}.Release|x86.Build.0 = Release|Win32
+		{5C010C8A-074D-4E39-A34D-F32D10D7D0EB}.Debug|x64.ActiveCfg = Debug|x64
+		{5C010C8A-074D-4E39-A34D-F32D10D7D0EB}.Debug|x64.Build.0 = Debug|x64
+		{5C010C8A-074D-4E39-A34D-F32D10D7D0EB}.Debug|x86.ActiveCfg = Debug|Win32
+		{5C010C8A-074D-4E39-A34D-F32D10D7D0EB}.Debug|x86.Build.0 = Debug|Win32
+		{5C010C8A-074D-4E39-A34D-F32D10D7D0EB}.Release|x64.ActiveCfg = Release|x64
+		{5C010C8A-074D-4E39-A34D-F32D10D7D0EB}.Release|x64.Build.0 = Release|x64
+		{5C010C8A-074D-4E39-A34D-F32D10D7D0EB}.Release|x86.ActiveCfg = Release|Win32
+		{5C010C8A-074D-4E39-A34D-F32D10D7D0EB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
